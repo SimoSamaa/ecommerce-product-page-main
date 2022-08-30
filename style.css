@@ -176,6 +176,9 @@ nav {
     overflow-y: scroll;
     display: grid;
     gap: 1em;
+    scrollbar-color: var(--orange) transparent;
+    scrollbar-width: thin;
+
 }
 
 .cart-content::-webkit-scrollbar {
@@ -514,7 +517,7 @@ nav {
 input[type="number"] {
     appearance: none;
     -webkit-appearance: none;
-    -moz-appearance: none;
+    -moz-appearance: textfield;
     -ms-appearance: none;
     -o-appearance: none;
     border: none;
